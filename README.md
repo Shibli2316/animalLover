@@ -174,9 +174,9 @@ Once an ESP32 device is onboarded, it operates **independently**, triggered only
 ```
 
 ## 🔒 Environment Variables
-###These .env variables are used for app development (e.g., Vite/React or similar frameworks):
+### These .env variables are used for app development (e.g., Vite/React or similar frameworks):
 
-# PetFeeder Environment Variables
+## PetFeeder Environment Variables
 
 ## AES Encryption Keys
 -VITE_AES_ENCRYPTION_KEY=petfeeder-secure-32char-key-2024
