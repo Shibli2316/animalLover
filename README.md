@@ -174,47 +174,36 @@ Once an ESP32 device is onboarded, it operates **independently**, triggered only
 ```
 
 ## 🔒 Environment Variables
-
-These .env variables are used for app development (e.g., Vite/React or similar frameworks):
+###These .env variables are used for app development (e.g., Vite/React or similar frameworks):
 
 # PetFeeder Environment Variables
 
-# AES Encryption Keys
---
-VITE_AES_ENCRYPTION_KEY=petfeeder-secure-32char-key-2024
-VITE_AES_DECRYPTION_KEY=petfeeder-secure-32char-key-2024
---
+## AES Encryption Keys
+-VITE_AES_ENCRYPTION_KEY=petfeeder-secure-32char-key-2024
+-VITE_AES_DECRYPTION_KEY=petfeeder-secure-32char-key-2024
 
-# ESP32 WiFi Configuration
---
-VITE_WIFI_SSID=PetFeeder
-VITE_WIFI_PASSWORD=setup123
---
+## ESP32 WiFi Configuration
+-VITE_WIFI_SSID=PetFeeder
+-VITE_WIFI_PASSWORD=setup123
 
-# Firebase Configuration (user-provided)
---
-VITE_FIREBASE_API_KEY=
-VITE_FIREBASE_PROJECT_ID=
-VITE_FIREBASE_APP_ID=
-VITE_SENDER_ID=
---
+## Firebase Configuration (user-provided)
+-VITE_FIREBASE_API_KEY=
+-VITE_FIREBASE_PROJECT_ID=
+-VITE_FIREBASE_APP_ID=
+-VITE_SENDER_ID=
 
 -🔐 Keys must be 32 chars for AES-256
 -⚠️ Never expose .env in public builds
 
 ## 🧪 Testing
 ### ESP:
----
-    Test AP setup → connect from browser/mobile
-    Test DB-controlled LED stream
----
+    -Test AP setup → connect from browser/mobile
+    -Test DB-controlled LED stream
 
 ## App:
----
-    Test login (Google only)
-    Test adding a device (backend required)
-    Test Wi-Fi + AES encryption transfer
----
+    -Test login (Google only)
+    -Test adding a device (backend required)
+    -Test Wi-Fi + AES encryption transfer
 
 ### 📦 Dependencies
 ### ESP Libraries:
@@ -226,12 +215,11 @@ VITE_SENDER_ID=
 ---
 
 ## App SDKs:
----
-    Firebase Auth SDK (Google)
-    Firebase Database SDK
-    AES crypto library
-    Axios (or Fetch)
----
+    -Firebase Auth SDK (Google)
+    -Firebase Database SDK
+    -AES crypto library
+    -Axios (or Fetch)
+
 ## 🧠 Future Features
     - 🔔 FCM Notifications for refill alerts
     - 📊 Chart of feed history
