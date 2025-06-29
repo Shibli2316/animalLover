@@ -179,8 +179,8 @@ Once an ESP32 device is onboarded, it operates **independently**, triggered only
 ## PetFeeder Environment Variables
 
 ## AES Encryption Keys
--VITE_AES_ENCRYPTION_KEY=petfeeder-secure-32char-key-2024
--VITE_AES_DECRYPTION_KEY=petfeeder-secure-32char-key-2024
+- VITE_AES_ENCRYPTION_KEY=petfeeder-secure-32char-key-2024
+- VITE_AES_DECRYPTION_KEY=petfeeder-secure-32char-key-2024
 
 ## ESP32 WiFi Configuration
 -VITE_WIFI_SSID=PetFeeder
