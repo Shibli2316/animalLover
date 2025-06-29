@@ -183,17 +183,17 @@ Once an ESP32 device is onboarded, it operates **independently**, triggered only
 - VITE_AES_DECRYPTION_KEY=petfeeder-secure-32char-key-2024
 
 ## ESP32 WiFi Configuration
--VITE_WIFI_SSID=PetFeeder
--VITE_WIFI_PASSWORD=setup123
+- VITE_WIFI_SSID=PetFeeder
+- VITE_WIFI_PASSWORD=setup123
 
 ## Firebase Configuration (user-provided)
--VITE_FIREBASE_API_KEY=
--VITE_FIREBASE_PROJECT_ID=
--VITE_FIREBASE_APP_ID=
--VITE_SENDER_ID=
+- VITE_FIREBASE_API_KEY=
+- VITE_FIREBASE_PROJECT_ID=
+- VITE_FIREBASE_APP_ID=
+- VITE_SENDER_ID=
 
--🔐 Keys must be 32 chars for AES-256
--⚠️ Never expose .env in public builds
+- 🔐 Keys must be 32 chars for AES-256
+- ⚠️ Never expose .env in public builds
 
 ## 🧪 Testing
 ### ESP:
@@ -214,11 +214,11 @@ Once an ESP32 device is onboarded, it operates **independently**, triggered only
     Optional: AESLib, Crypto.h
 ---
 
-## App SDKs:
-    -Firebase Auth SDK (Google)
-    -Firebase Database SDK
-    -AES crypto library
-    -Axios (or Fetch)
+## App SDKs
+    - Firebase Auth SDK (Google)
+    - Firebase Database SDK
+    - AES crypto library
+    - Axios (or Fetch)
 
 ## 🧠 Future Features
     - 🔔 FCM Notifications for refill alerts
